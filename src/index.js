@@ -48,8 +48,9 @@ const NativeTachyons = {
             fonts: {
             },
             clsPropName: "cls",
-            customStyles: {}
-        })
+            customStyles: {},
+            shouldRecurse: false
+        });
 
         /* Assign all the styles */
         const styleSheet = {}
